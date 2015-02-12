@@ -13,7 +13,7 @@ gem install ascii_table
 ## Usage
 
 ```shell
-ascii_table -h
+$ ascii_table -h
 
 Message: Help!
 
@@ -31,7 +31,7 @@ Usage: cat data.csv | ascii_table -H -d ";" [options]
 
 ## Contributing
 
-1. Fork it ( https://github.com/neopoly/ascii\_table/fork )
+1. Fork it ( https://github.com/neopoly/ascii_table/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
