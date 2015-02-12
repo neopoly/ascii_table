@@ -3,7 +3,7 @@ if ENV['CODECLIMATE_REPO_TOKEN']
   CodeClimate::TestReporter.start
 end
 
-require "minitest/autorun"
+require "maxitest/autorun"
 
 require "ascii_table"
 
