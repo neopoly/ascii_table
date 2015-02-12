@@ -1,3 +1,3 @@
-module AsciiTable
-  VERSION = "0.0.1"
+class AsciiTable
+  VERSION = "1.0.0"
 end

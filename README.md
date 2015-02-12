@@ -1,30 +1,37 @@
 # AsciiTable
 
-TODO: Write a gem description
+Create ascii table from command line using [terminal-table](https://github.com/tj/terminal-table/)
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install it yourself as:
 
-```ruby
-gem 'ascii_table'
+```shell
+gem install ascii_table
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ascii_table
 
 ## Usage
 
-TODO: Write usage instructions here
+```shell
+ascii_table -h
+
+Message: Help!
+
+Usage: cat data.csv | ascii_table -H -d ";" [options]
+
+    -d, --delimiter DELIMITER        Delimiter. Default: ;
+    -H, --header                     First line is header. Default: no
+    -A, --table-align POSITION       Align all cells to POSITION. Default left
+    -a, --align COLUMN1=POSITION,... All specific cell to. Example 1=left,3=right,4=center
+    -s, --separator SEPARATOR        Add a separator. Default: empty line
+    -h, --help                       Help
+
+```
+
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/ascii_table/fork )
+1. Fork it ( https://github.com/neopoly/ascii\_table/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

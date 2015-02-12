@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'ascii_table'
+
+begin
+  puts AsciiTable.new(ARGV, STDIN)
+rescue AsciiTable::AbortError => e
+  puts e.message
+end
