@@ -1,6 +1,23 @@
+[github]: https://github.com/neopoly/ascii_table
+[doc]: http://rubydoc.info/github/neopoly/ascii_table/master/file/README.md
+[gem]: https://rubygems.org/gems/ascii_table
+[travis]: https://travis-ci.org/neopoly/ascii_table
+[codeclimate]: https://codeclimate.com/github/neopoly/ascii_table
+[inchpages]: https://inch-ci.org/github/neopoly/ascii_table
+
 # AsciiTable
 
 Create ascii table from command line using [terminal-table](https://github.com/tj/terminal-table/)
+
+[![Travis](https://img.shields.io/travis/neopoly/ascii_table.svg?branch=master)][travis]
+[![Gem Version](https://img.shields.io/gem/v/ascii_table.svg)][gem]
+[![Code Climate](https://img.shields.io/codeclimate/github/neopoly/ascii_table.svg)][codeclimate]
+[![Test Coverage](https://codeclimate.com/github/neopoly/ascii_table/badges/coverage.svg)][codeclimate]
+[![Inline docs](https://inch-ci.org/github/neopoly/ascii_table.svg?branch=master&style=flat)][inchpages]
+
+[Gem][gem] |
+[Source][github] |
+[Documentation][doc]
 
 ## Installation
 
