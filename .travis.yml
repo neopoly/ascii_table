@@ -1,0 +1,16 @@
+language: ruby
+sudo: false
+cache: bundler
+rvm:
+  - ruby-head
+  - 2.2
+  - 2.1
+  - 2.0
+  - 1.9.3
+  - 1.8.7
+env:
+  global:
+    - CODECLIMATE_REPO_TOKEN=72adb41ef6e2910a045bc05b63fedcd1b52cea99537f455fc6a957cee8041f5b
+matrix:
+  allow_failures:
+    - rvm: ruby-head
