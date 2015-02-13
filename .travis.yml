@@ -11,6 +11,7 @@ env:
   global:
     - CODECLIMATE_REPO_TOKEN=72adb41ef6e2910a045bc05b63fedcd1b52cea99537f455fc6a957cee8041f5b
 matrix:
+  fast_finish: true
   allow_failures:
     - rvm: ruby-head
 notifications:
